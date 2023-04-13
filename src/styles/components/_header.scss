@@ -1,0 +1,32 @@
+@use "../settings";
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: settings.$color-3;
+    padding: 0px 20px 20px 20px;
+    width: 90rem;
+    height: 12rem;
+    border-radius: 25px;
+    color: white;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1 {
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-size: 26px;
+    list-style-type: none;
+}
