@@ -9,6 +9,13 @@ header {
     height: 12rem;
     border-radius: 25px;
     color: white;
+    li {
+        font-size: 26px;
+        list-style-type: none;
+    }
+    h1 {
+        color: white;
+    }
 }
 
 .title {
@@ -26,7 +33,4 @@ ul {
     padding: 0;
 }
 
-li {
-    font-size: 26px;
-    list-style-type: none;
-}
+

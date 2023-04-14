@@ -1,0 +1,13 @@
+@use "../settings";
+
+footer {
+    position: absolute;
+    background-color: settings.$color-3;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    h1 {
+        color: white;
+        padding-left: 120px;
+    }
+}

@@ -4,10 +4,33 @@ $color-2: #3a4042;
 $color-3: #50717b;
 $color-4: #8ecccc;
 
+//FONTS 
+@font-face {
+    font-family: "font-1";
+    src: url("../assets/fonts/SofiaSansCondensed-VariableFont_wght.ttf");
+}
 
+$font-1: "font-1", sans-serif;
+
+//BODY
 body {
+    font-family: $font-1;
     margin: 0;
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    user-select: none;
+    position: relative;
+}
+
+p, section, li {
+    font-size: 26px;
+}
+
+p, li {
+    color: white;
+}
+
+.year, b, h1, h2 {
+    color: $color-2;
 }
