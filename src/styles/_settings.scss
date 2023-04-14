@@ -32,5 +32,9 @@ p, li {
 }
 
 .year, b, h1, h2 {
-    color: $color-2;
+    color: $color-4;
+}
+
+a:visited, a:active {
+    color: white;
 }

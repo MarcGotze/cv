@@ -8,11 +8,19 @@ const Asides = () => {
           <h1>PROJETS</h1>
           <ul>
             <li>
-              <a href="https://github.com/MarcGotze">GitHub</a>
+              <a
+                href="https://github.com/MarcGotze"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
             </li>
             <li>
               Site personnel :{" "}
-              <a href="https://marcgotze.fr">https://marcgotze.fr</a>
+              <a href="https://marcgotze.fr" target="_blank" rel="noreferrer">
+                https://marcgotze.fr
+              </a>
             </li>
           </ul>
         </div>
@@ -51,7 +59,11 @@ const Asides = () => {
           <h2>06.25.77.62.28</h2>
           <a href="mailto: marc.gotze@gmail.com">marc.gotze@gmail.com</a>
           <br />
-          <a href="https://www.linkedin.com/in/marc-g%C3%B6tze-95750426b/">
+          <a
+            href="https://www.linkedin.com/in/marc-g%C3%B6tze-95750426b/"
+            target="_blank"
+            rel="noreferrer"
+          >
             LinkedIn
           </a>
           <p>34 ans, pacsé</p>

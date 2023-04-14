@@ -34,7 +34,7 @@ const Experiences = () => {
       <article className="formation block-color">
         <h1>FORMATION</h1>
         <p>
-          <span className="year">2022 :&nbsp;</span>
+          <span className="year">2022 : </span>
           <b>
             Développeur Web, Openclassrooms (Titre RNCP de niveau 5, bac +2)
           </b>
@@ -54,7 +54,7 @@ const Experiences = () => {
       <article className="experiences_pro block-color">
         <h1>EXPERIENCES PROFESSIONNELLES</h1>
         <p>
-          <span className="year">2010 - 2022 :&nbsp;</span>
+          <span className="year">2010 - 2022 : </span>
           <b>Planificateur Expert, Régie Networks / groupe NRJ</b>
         </p>
         <ul>
@@ -77,7 +77,7 @@ const Experiences = () => {
           </li>
         </ul>
         <p>
-          <span className="year">2009 - 2010 :&nbsp;</span>
+          <span className="year">2009 - 2010 : </span>
           <b>Grande Distribution et Restauration Rapide</b>
         </p>
         <p>
@@ -88,7 +88,7 @@ const Experiences = () => {
       <article className="experiences_ext block-color">
         <h1>EXPERIENCES EXTRA-PROFESSIONNELLES</h1>
         <p>
-          <span className="year">2017 - 2018 :&nbsp;</span>
+          <span className="year">2017 - 2018 : </span>
           <b>Chargé de communication, Apathia Records</b>
         </p>
         <p>
@@ -98,7 +98,7 @@ const Experiences = () => {
           GRETA.
         </p>
         <p>
-          <span className="year">2014 - 2017 :&nbsp;</span>
+          <span className="year">2014 - 2017 : </span>
           <b>Bénévole, EXTRA</b>
         </p>
         <p>

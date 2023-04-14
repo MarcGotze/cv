@@ -9,11 +9,13 @@ const Home = () => {
     <div>
       <Header />
       <section className="intro">
-        Après 12 années d’expérience professionnelle dans le milieu de la
-        planification, je souhaite aujourd’hui m’orienter vers le métier
-        passionnant de Développeur Web. Intègre, curieux et à l’écoute, j’aime
-        travailler en équipe, échanger les idées et contribuer à la résolution
-        de problématiques.
+        <i>
+          "Après 12 années d’expérience professionnelle dans le milieu de la
+          planification, je souhaite aujourd’hui m’orienter vers le métier
+          passionnant de Développeur Web. Intègre, curieux et à l’écoute, j’aime
+          travailler en équipe, échanger les idées et contribuer à la résolution
+          de problématiques."
+        </i>
       </section>
       <div className="rows-container">
         <Experiences />
