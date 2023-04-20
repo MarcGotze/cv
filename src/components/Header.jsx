@@ -1,7 +1,7 @@
 import React from "react";
 import Picture from "./Picture";
 
-const Header = () => {
+const Header = ({ isHomePage }) => {
   return (
     <header>
       <div className="title">
@@ -11,7 +11,7 @@ const Header = () => {
           <li>Zone de recherche : Rhône ouest & Loire est</li>
         </ul>
       </div>
-      <Picture />
+      <Picture isHomePage={isHomePage} />
     </header>
   );
 };

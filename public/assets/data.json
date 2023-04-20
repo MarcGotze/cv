@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Marc Götze - site personnel",
+        "image": "./assets/screens/01.png",
+        "description": "Site personnel sur lequel vous pouvez en apprendre un peu plus sur moi. Stack: React et Sass",
+        "link": "https://marcgotze.fr/"
+    },
+    {
+        "name": "React World",
+        "image": "./assets/screens/08.png",
+        "description": "Affichage dynamique des pays du monde via une API et gestion de formulaire. Stack: React et Sass",
+        "link": "https://github.com/MarcGotze/cours-react-1"
+    },
+    {
+        "name": "Kasa",
+        "image": "./assets/screens/02.png",
+        "description": "Application web de location immobilière. Stack: React et Sass",
+        "link": "https://github.com/MarcGotze/Projet-7"
+    },
+    {
+        "name": "Hot Takes",
+        "image": "./assets/screens/03.png",
+        "description": "API sécurisée pour une app d'avis gastronomiques. Stack: Node.js, Express, Mongoose et MongoDB",
+        "link": "https://github.com/MarcGotze/Projet-6"
+    },
+    {
+        "name": "Kanap",
+        "image": "./assets/screens/04.png",
+        "description": "Site vitrine d'une boutique de canapés avec connexion via une API. Stack: JavaScript et HTML/CSS",
+        "link": "https://github.com/MarcGotze/Projet-5"
+    },
+    {
+        "name": "La Panthère",
+        "image": "./assets/screens/05.png",
+        "description": "Amélioration des performances techniques et SEO sur un site déjà existant. Stack: Lighthouse",
+        "link": "https://github.com/MarcGotze/Projet-4"
+    },
+    {
+        "name": "Ohmyfood",
+        "image": "./assets/screens/06.png",
+        "description": "Intégration de maquette et mise en place d'animations pour un site de restauration. Stack: HTML et Sass",
+        "link": "https://github.com/MarcGotze/Projet-3"
+    },
+    {
+        "name": "Booki",
+        "image": "./assets/screens/07.png",
+        "description": "Intégration d'une maquette dans le pur style de Booking. Stack: HTML et CSS",
+        "link": "https://github.com/MarcGotze/Projet-2"
+    }
+]

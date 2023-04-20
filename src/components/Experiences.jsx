@@ -26,6 +26,7 @@ const Experiences = () => {
             <li>Visual Studio Code</li>
             <li>GitHub</li>
             <li>MongoDB Compass</li>
+            <li>Postman</li>
             <li>Fork</li>
             <li>Ngrok</li>
           </ul>

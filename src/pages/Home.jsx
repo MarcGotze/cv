@@ -8,10 +8,10 @@ import Navigation from "../components/Navigation";
 const Home = () => {
   return (
     <div>
-      <Header />
+      <Header isHomePage={true} />
       <Navigation />
       <section className="intro">
-        <i>
+        <i className="animated-text">
           "Après 12 années d’expérience professionnelle dans le milieu de la
           planification, je souhaite aujourd’hui m’orienter vers le métier
           passionnant de Développeur Web. Intègre, curieux et à l’écoute, j’aime

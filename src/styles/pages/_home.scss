@@ -5,6 +5,11 @@
     margin-top: 100px;
     padding-left: 20px;
 }
+
+.animated-text {
+    opacity: 0; 
+    animation: animate-text 3s forwards; 
+}
   
 .articles {
     display: flex;
@@ -53,6 +58,7 @@
 
 .block-color {
     background-color: settings.$color-3;
+    border: 5px solid settings.$color-2;
     border-radius: 25px;
     padding: 3px 15px 20px 15px;
     margin-bottom: 15px;

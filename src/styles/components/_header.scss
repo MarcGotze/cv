@@ -3,6 +3,7 @@
 header {
     display: flex;
     justify-content: space-between;
+    border: 5px solid settings.$color-2;
     background-color: settings.$color-3;
     padding: 0px 20px 20px 20px;
     width: 90rem;

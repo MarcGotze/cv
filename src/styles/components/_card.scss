@@ -1,0 +1,10 @@
+@use "../settings";
+
+.card {
+    text-align: center;
+    position: relative;
+    img {
+        border: 3px solid settings.$color-2;
+        border-radius: 25px;
+    }
+}

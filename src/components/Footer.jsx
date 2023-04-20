@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer>
-      <h1>REFERENCES</h1>
+      <h2>Marc Götze - 2023</h2>
     </footer>
   );
 };
