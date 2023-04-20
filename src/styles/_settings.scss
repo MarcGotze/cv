@@ -12,6 +12,18 @@ $color-4: #8ecccc;
 
 $font-1: "font-1", sans-serif;
 
+//KEYFRAMES 
+@keyframes appear {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
 //BODY
 body {
     font-family: $font-1;
@@ -35,6 +47,6 @@ p, li {
     color: $color-4;
 }
 
-a:visited, a:active {
+a:visited, a:active, a:link {
     color: white;
 }

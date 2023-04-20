@@ -3,11 +3,13 @@ import Header from "../components/Header";
 import Experiences from "../components/Experiences";
 import Asides from "../components/Asides";
 import Footer from "../components/Footer";
+import Navigation from "../components/Navigation";
 
 const Home = () => {
   return (
     <div>
       <Header />
+      <Navigation />
       <section className="intro">
         <i>
           "Après 12 années d’expérience professionnelle dans le milieu de la
