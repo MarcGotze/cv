@@ -1,6 +1,14 @@
+@use "../utils/mixin";
+
 .asides {
     padding-left: 20px;
     width: 25rem;
+    @include mixin.laptop {
+        width: 95%;
+        padding-left: 0;
+        margin-left: 20px;
+    }
+
     li {
         margin-left: 22px;
     }

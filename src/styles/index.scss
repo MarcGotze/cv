@@ -1,4 +1,5 @@
 @use "./settings";
+@use "./utils/mixin";
 @use "./pages/home";
 @use "./pages/projects";
 @use "./components/header";

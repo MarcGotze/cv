@@ -22,7 +22,7 @@ const Card = ({ project }) => {
         onMouseLeave={handleMouseLeave}
         style={{ position: "relative" }}
       >
-        <img src={project.image} alt="" />
+        <img src={project.image} alt={"Page d'accueil de " + project.name} />
         {showDescription && (
           <div
             style={{

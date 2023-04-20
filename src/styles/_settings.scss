@@ -1,3 +1,5 @@
+@use "../styles/utils/mixin";
+
 //COLORS 
 $color-1: #212121;
 $color-2: #3a4042;
@@ -107,3 +109,4 @@ p, li {
 a:visited, a:active, a:link {
     color: white;
 }
+

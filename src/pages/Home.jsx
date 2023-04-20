@@ -7,7 +7,7 @@ import Navigation from "../components/Navigation";
 
 const Home = () => {
   return (
-    <div>
+    <div className="wrapper">
       <Header isHomePage={true} />
       <Navigation />
       <section className="intro">
