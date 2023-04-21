@@ -4,12 +4,11 @@
 header {
     display: flex;
     justify-content: space-between;
-    border: 2px solid settings.$color-2;
+    box-shadow: 5px 5px 2px settings.$color-4;
     background-color: settings.$color-3;
     padding: 0px 20px 20px 20px;
     width: 90rem;
     height: 12rem;
-    border-radius: 25px;
     color: white;
     @include mixin.desktop {
         width: 60rem;
@@ -22,10 +21,7 @@ header {
         width: 100vw; 
         height: 15rem;
         margin-left: 0;
-        border-radius: 0;
-        border-left: none;
-        border-right: none;
-        border-top: none;
+        box-shadow: none;
     }
     li {
         font-size: 26px;

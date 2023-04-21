@@ -88,14 +88,11 @@
 
 .block-color {
     background-color: settings.$color-3;
-    border: 2px solid settings.$color-2;
-    border-radius: 25px;
+    box-shadow: 5px 5px 2px settings.$color-4;
     padding: 3px 15px 20px 15px;
     margin-bottom: 15px;
     @include mixin.mobile {
-        border-radius: 0;
-        border-left: none;
-        border-right: none;
+        box-shadow: none;
     }
 }
 
