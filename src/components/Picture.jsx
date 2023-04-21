@@ -3,7 +3,7 @@ import React from "react";
 const Picture = ({ isHomePage }) => {
   return (
     <div className="picture-container">
-      <h1>Marc GÖTZE</h1>
+      <h1>MARC GÖTZE</h1>
       <div className={`portrait ${isHomePage ? "slide-in-right" : ""}`}>
         <img
           className="photo"

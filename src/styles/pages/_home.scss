@@ -88,9 +88,9 @@
 
 .block-color {
     background-color: settings.$color-3;
-    box-shadow: 5px 5px 2px settings.$color-4;
     padding: 3px 15px 20px 15px;
     margin-bottom: 15px;
+    box-shadow: 5px 5px 2px settings.$color-2;
     @include mixin.mobile {
         box-shadow: none;
     }

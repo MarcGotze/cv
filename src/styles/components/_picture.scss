@@ -11,6 +11,7 @@
         margin-right: 0px;
     }
     h1 {
+        color: settings.$color-1;
         @include mixin.mobile {
             font-size: 30x;
             padding-left: 15px;
@@ -22,7 +23,7 @@
 .portrait {
     position: absolute;
     overflow: hidden;
-    border: 2px solid settings.$color-2;
+    border: 2px solid settings.$color-1;
     border-radius: 50%;
     width: 200px;
     height: 200px;

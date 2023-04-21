@@ -3,9 +3,9 @@
 
 //COLORS 
 $color-1: #212121;
-$color-2: #3a4042;
+$color-2: #8ecccc;
+$color-4: #3a4042;
 $color-3: #50717b;
-$color-4: #8ecccc;
 
 //FONTS 
 @font-face {
@@ -94,7 +94,6 @@ body {
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    user-select: none;
     position: relative;
     @include mixin.mobile {
       margin-top: 0;
@@ -110,10 +109,10 @@ p, li {
 }
 
 .year, b, h1, h2 {
-    color: $color-4;
+    color: $color-2;
 }
 
 a:visited, a:active, a:link {
-    color: white;
+    color: $color-2;
 }
 
