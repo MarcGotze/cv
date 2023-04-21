@@ -8,6 +8,10 @@
         padding-left: 0;
         margin-left: 20px;
     }
+    @include mixin.mobile {
+        margin-left: 0;
+        width: 100vw;
+    }
 
     li {
         margin-left: 22px;

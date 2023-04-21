@@ -12,6 +12,13 @@
         width: 90%;
         margin-left: 20px;
     }
+    @include mixin.mobile {
+        padding-left: 15px;
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+        width: 100vw;
+    }
 }
 
 .animated-text {
@@ -30,6 +37,10 @@
     @include mixin.laptop {
         width: 95%;
         margin-left: 20px;
+    }
+    @include mixin.mobile {
+        width: 100vw;
+        margin-left: 0px;
     }
     li {
         margin-left: 22px;
@@ -76,12 +87,20 @@
 
 .block-color {
     background-color: settings.$color-3;
-    border: 5px solid settings.$color-2;
+    border: 2px solid settings.$color-2;
     border-radius: 25px;
     padding: 3px 15px 20px 15px;
     margin-bottom: 15px;
+    @include mixin.mobile {
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+    }
 }
 
 .experiences_ext {
     margin-bottom: 6rem;
+    @include mixin.tablet {
+        margin-bottom: 15px;
+    }
 }

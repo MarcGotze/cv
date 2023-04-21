@@ -1,5 +1,6 @@
 @use "../styles/utils/mixin";
 
+
 //COLORS 
 $color-1: #212121;
 $color-2: #3a4042;
@@ -84,6 +85,9 @@ $font-1: "font-1", sans-serif;
   }
   
 //BODY
+* {
+  box-sizing: border-box;
+}
 body {
     font-family: $font-1;
     margin: 0;
@@ -92,6 +96,9 @@ body {
     justify-content: center;
     user-select: none;
     position: relative;
+    @include mixin.mobile {
+      margin-top: 0;
+    }
 }
 
 p, section, li {

@@ -4,7 +4,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    border: 5px solid settings.$color-2;
+    border: 2px solid settings.$color-2;
     background-color: settings.$color-3;
     padding: 0px 20px 20px 20px;
     width: 90rem;
@@ -15,18 +15,34 @@ header {
         width: 60rem;
     }
     @include mixin.laptop {
-        width: 88.5%;
+        width: 95%;
         margin-left: 20px;
+    }
+    @include mixin.mobile {
+        width: 100vw; 
+        height: 15rem;
+        margin-left: 0;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        border-top: none;
     }
     li {
         font-size: 26px;
         list-style-type: none;
+        @include mixin.laptop {
+            font-size: 20px;
+        }
     }
 }
 
 .title {
     display: flex;
     flex-direction: column;
+    @include mixin.laptop {
+        font-size: 12px; 
+        width: 60%;
+    }
 }
 
 .title h1 {

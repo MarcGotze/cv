@@ -1,3 +1,5 @@
+@use '../utils/mixin';
+
 .projects {
     width: 90rem;
     display: flex;
@@ -7,4 +9,16 @@
     padding-top: 35px;
     margin-top: 70px;
     margin-bottom: 100px;
+    @include mixin.desktop{
+        width: 60rem;
+    }
+    @include mixin.laptop{
+        width: 95%;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    @include mixin.mobile{
+        width: 100%;
+        margin-left: 0px;
+    }
 }
