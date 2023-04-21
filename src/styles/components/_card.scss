@@ -1,4 +1,5 @@
 @use "../settings";
+@use "../utils/mixin";
 
 .card {
     text-align: center;
@@ -6,5 +7,8 @@
     img {
         border: 2px solid settings.$color-2;
         border-radius: 25px;
+        @include mixin.mobile {
+            width: 90%;
+        }
     }
 }
