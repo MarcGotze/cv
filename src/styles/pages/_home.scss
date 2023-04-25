@@ -1,5 +1,12 @@
 @use "../settings";
 
+.picture {
+    justify-content: flex-start;
+    img {
+        
+    }
+}
+
 .title {
     display: flex;
     align-items: center;

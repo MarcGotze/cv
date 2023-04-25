@@ -17,6 +17,7 @@ const Home = () => {
         {
           x: -100,
           opacity: 0,
+          margin: "0 1vw",
         },
         {
           x: 0,
@@ -27,7 +28,34 @@ const Home = () => {
       )
       .to(".title", {
         y: 45,
-        delay: 0.7,
+        delay: 0.2,
+      })
+      .to(".letter", {
+        margin: "0",
+        delay: 0.3,
+        duration: 0.3,
+      })
+      .to(".letter", {
+        x: -titleRef.current.clientWidth,
+        delay: 0.5,
+        duration: 0.8,
+      })
+      .to(window, {
+        duration: 0.5,
+        scrollTo: "#nextSection",
+      })
+      .to("#nextSection", {
+        backgroundColor: "#484d51",
+        color: "#d2e4f1",
+        duration: 0.2,
+      })
+      .to(".title", {
+        y: 0,
+      })
+      .to(".letter", {
+        x: 0,
+        delay: 1,
+        duration: 2,
       });
   };
 
